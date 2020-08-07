@@ -39,23 +39,6 @@
         <img src="./images/bubble.png" alt="">
     </div>
     </div>
-<script>
-    //jQuery
-$(document).ready(function() {
-  var target = $("#bubbles");
-  $("#bubbles").click(function() {
-    removeElement(target);
-  });
-});
-
-function removeElement(target) {
-  target.animate({
-    opacity: "-=1"
-  }, 1000, function() {
-    target.remove();
-  });
-}
-</script>
     
 </body>
 </html>
